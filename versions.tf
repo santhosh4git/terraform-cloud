@@ -14,9 +14,6 @@ terraform {
 
     workspaces {
       name = "state-migration-demo" 
-      # Two cases: 
-      # Case-1: If workspace already exists, should not have any state files in states tab
-      # Case-2: If workspace not exists, during migration it will get created
     }
   }
 }
